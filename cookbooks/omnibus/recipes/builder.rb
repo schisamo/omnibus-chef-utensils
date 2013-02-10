@@ -18,8 +18,7 @@
 # limitations under the License.
 #
 
-include_recipe "apt" if node.platform_family?("debian")
-include_recipe "yum::epel" if node.platform_family?("rhel")
+include_recipe "apt" if platform_family?("debian")
 include_recipe "omnibus::ruby"
 include_recipe "build-essential"
 include_recipe "git"
