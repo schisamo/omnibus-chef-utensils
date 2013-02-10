@@ -1,0 +1,15 @@
+pkg/*
+bin/*
+omnibus.rb
+
+.bundle
+.vagrant
+Berksfile.lock
+Gemfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+/cookbooks
