@@ -20,9 +20,6 @@ version "1.1.6"
 
 dependencies ["ruby", "rubygems"]
 
-env = { "GEM_HOME" => nil, "GEM_PATH" => nil }
-
 build do
-  gem "install #{name} -n #{install_dir}/bin --no-rdoc --no-ri -v #{version}",
-    :env => env
+  gem "install #{name} -n #{install_dir}/bin --no-rdoc --no-ri -v #{version}"
 end

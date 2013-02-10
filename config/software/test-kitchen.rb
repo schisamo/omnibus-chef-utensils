@@ -23,9 +23,7 @@ source :git => "git://github.com/opscode/test-kitchen.git"
 
 relative_path "test-kitchen"
 
-env = { "GEM_HOME" => nil, "GEM_PATH" => nil }
-
 build do
-  gem "build test-kitchen.gemspec", env
-  gem "install test-kitchen-1.0.0*.gem -n #{install_dir}/bin --no-rdoc --no-ri", env
+  gem "build test-kitchen.gemspec"
+  gem "install test-kitchen-1.0*.gem -n #{install_dir}/bin --no-rdoc --no-ri"
 end
