@@ -16,7 +16,7 @@
 #
 
 name "foodcritic"
-version "1.7.0"
+version "2.1.0"
 
 dependencies ["ruby", "rubygems", "nokogiri"]
 
