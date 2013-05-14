@@ -16,7 +16,8 @@
 #
 
 name "chef-utensils"
-
+homepage "https://github.com/opscode/omnibus-chef-utensiles"
+maintainer      "YOUR NAME"
 replaces        "chef"
 install_path    "/opt/chef-utensils"
 build_version   Omnibus::BuildVersion.new.semver
