@@ -28,7 +28,7 @@ bundle install --binstubs
 cp omnibus.rb.example omnibus.rb
 sudo mkdir -p /opt/chef-utensils /var/cache/omnibus
 sudo chown $USER:staff /opt/chef-utensils /var/cache/omnibus
-bundle exec omnibus build chef-utensils
+bundle exec omnibus build project chef-utensils
 ```
 
 This repository also ships with a Vagrantfile which makes it easy to build
